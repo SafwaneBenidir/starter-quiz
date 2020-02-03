@@ -17,12 +17,13 @@ import { Question } from '../models/question.model';
 
 export const QUIZ_LIST: Quiz[] = [
     {
-        name: 'Les Acteurs', // What's happening if I change this value..?
+        name: 'Les Comédiens', // What's happening if I change this value..?
         theme: 'Actor',
         questions: [],
     },
     {
         name: 'Les Sports',
+        theme: 'Sport',
         questions: [],
     }
 ];
